@@ -1,0 +1,23 @@
+.todoItemContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.todo {
+  color: #000000;
+  font-size: 19px;
+  margin-left: 70px;
+  font-weight: 500;
+}
+
+.deleteButton {
+  margin: 20px;
+  margin-right: 70px;
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+.deleteButton:hover {
+  cursor: pointer;
+}

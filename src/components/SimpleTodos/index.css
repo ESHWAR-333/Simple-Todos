@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto';
+}
+.mainContainer {
+  background-color: #ffc2a0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
+  min-width: 1000px;
+}
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heading {
+  color: #ff8542;
+  font-weight: 700;
+  margin-top: 40px;
+}
